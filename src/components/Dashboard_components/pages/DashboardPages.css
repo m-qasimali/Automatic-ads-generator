@@ -1,0 +1,114 @@
+.portion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.portion-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+
+  color: #433f4c;
+}
+
+.portion-icon {
+  cursor: pointer;
+  color: #433f4c;
+}
+
+.card-size {
+  width: 100%;
+}
+
+.chart-style {
+  border: 2px solid #c8cad3;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: "#fff";
+}
+
+.ads-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ads-schedule {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p-color {
+  color: rgba(67, 63, 76, 0.6);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.active {
+  color: #433f4c;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.p-color1 {
+  color: rgba(67, 63, 76, 0.6);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.active1 {
+  color: #433f4c;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.total-visitor {
+  color: #433f4c;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.total-cost {
+  color: #433f4c;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.totalReferals {
+  border: 2px solid #c8cad3;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.referal {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #433f4c;
+}
+
+.sub-referal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.referal-icon {
+  width: 25px;
+  margin-right: 10px;
+}

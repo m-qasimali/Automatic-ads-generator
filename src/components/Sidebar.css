@@ -1,0 +1,12 @@
+.design{
+    color: #fff;
+    background-color: #1E0BA6;
+}
+
+.design:hover{
+    background-color: red;
+}
+
+.MuiButtonBase-root:hover{
+    background-color: red;
+}

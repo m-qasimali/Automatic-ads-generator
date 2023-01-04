@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 3rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  /* or 112% */
+
+  background: linear-gradient(91.74deg, #1e0ba6 31.31%, #8d78a8 65.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.subText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: -10px;
+  /* or 120% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #9da5d8;
+}
+
+.getStarted {
+  width: 264px;
+  height: 61px;
+
+  background: linear-gradient(90deg, #1e0ba6 27.65%, #8d78a8 100%);
+  border-radius: 10px;
+}
+
+.item{
+  margin-top: 100px;
+}
+
+.mid-image{
+  margin-top: 0px;
+}
+
+@media (max-width: 480px) {
+  .mid-image, .item{
+    margin-top: 70px;
+  }
+}

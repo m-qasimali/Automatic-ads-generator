@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ResponsiveDrawer from './components/Sidebar'
 
-function App() {
+// Pages
+import SignUp from './components/Registration/SignUp';
+import Login from './components/Registration/Login';
+import ForgotPassword from './components/Registration/ForgotPassword';
+import Dashboard from './components/Dashboard_components/Dashboard';
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+
+        <Routes>
+          <Route exact path='' element={<ResponsiveDrawer />} />
+          <Route exact path='/signUp' element={<SignUp />} />
+          <Route exact path='/login' element={<Login />} />
+          <Route exact path='/forgot' element={<ForgotPassword />} />
+          <Route exact path='/dashboard' element={<Dashboard />} />
+          {/* <Route exact path='/Home' component={<Home />} />
+          <Route exact path='/About-us' element={<AboutUs />} />
+          <Route exact path='/Services' element={ <Services />} />
+          <Route exact path='/Pricing' element={ <Pricing />} />
+          <Route exact path='/Contact-us' element={ <ContactUs /> } />
+          <Route exact path='/Faqs' element={<FAQs />} /> */}
+        </Routes>
+      </Router>
+    </>
+
+  )
 }
 
-export default App;
+export default App

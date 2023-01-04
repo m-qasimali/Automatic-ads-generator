@@ -1,0 +1,25 @@
+.design{
+    color: #fff;
+    background-color: #1E0BA6;
+}
+
+.toolbar{
+    background-color: #F0F3FB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 40px;
+    border-radius: 100%;
+}
+
+.toolBar-icon{
+    color: #CED6F0;
+}
+
+.vertical-ruler{
+    color: #CED6F0;
+    transform: rotate(90deg);
+}
